@@ -33,7 +33,7 @@ Quali file ho incluso nel commit e perché: sono stati inclusi i file hello.c ed
 
 Come ho verificato che la versione provata sia presente su GitHub: Verificando il contenuto della repository online su GitHub (remota) e consultando la cronologia dei commit. Abbiamo verificato che l'identificativo dell'ultimo commit sia quello mostrato da gitlog. 
 
-Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone:
+Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone:prima di effettuare git pull la copia locale non mostrava le modifiche eseguite sulla copia remota. attraverso git pull è stata aggiornata la copia locale , che ora presenta le modifiche apportate sulla copia remota. Non è stato necessario effettuare nuovamente git clone perchè tale operazione serve a copiare una repository esistente solo su github ed "esportarla" localmente. dopo aver eseguito git clone la prima volta, tale repository è già presente localmente ed è sufficiente usare git pull per importare le modifiche nuove. 
 
 ## Step 2 — Eco: prima prova
 
