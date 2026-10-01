@@ -30,6 +30,7 @@ Esito dopo la modifica e spiegazione della correzione: Se viene modificato il co
 
 Quali file ho incluso nel commit e perché: sono stati inclusi i file hello.c ed osservazioni.md in quanto sono i due file modificati (vogliamo salvare le nuove versioni nel repository locale con git, attraverso un nuovo commit)
 
+
 Come ho verificato che la versione provata sia presente su GitHub: Verificando il contenuto della repository online su GitHub (remota) e consultando la cronologia dei commit. Abbiamo verificato che l'identificativo dell'ultimo commit sia quello mostrato da gitlog. 
 
 Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone:
